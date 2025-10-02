@@ -20,8 +20,11 @@ class InventoryWindow(QMainWindow):
 
         form_box = QHBoxLayout()
         self.btn_insert = QPushButton("추가")
+        self.btn_insert.setStyleSheet("background-color: lightgreen; color: black;")
         self.btn_update = QPushButton("수정")
+        self.btn_update.setStyleSheet("background-color: orange; color: black;")
         self.btn_delete = QPushButton("삭제")
+        self.btn_delete.setStyleSheet("background-color: red; color: black;")
 
         self.btn_insert.clicked.connect(self.open_dialog_insert)
         self.btn_update.clicked.connect(self.open_dialog_update)
