@@ -4,7 +4,7 @@
               요구 사항
 # 파이썬 3.9.x
 #  MySQL 8.0.x
-#  MySQL 서버, 스키마(products) 및 테이블(gimbap_store)
+#  MySQL 서버, 스키마(gimbap_store) 및 테이블(gimbaps)
 
               
               
