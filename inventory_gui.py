@@ -9,7 +9,7 @@ class InventoryWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("김밥 재고 관리")
-        self.setWindowIcon(QIcon("Gimbap.png"))
+        self.setWindowIcon(QIcon("gimbap.png"))
         self.resize(400,300)
 
         self.db = DB(**DB_CONFIG)
